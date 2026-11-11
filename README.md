@@ -49,6 +49,10 @@ Label Snip has no server, no account and no analytics. See the [privacy policy](
 
 That's a printer setting, not the PDF (Label Snip doesn't change the label image). In Windows → Printers & scanners → your printer → **Printing preferences**, raise **Density** (or Darkness) and lower **Speed**; slower prints darker. If there's a Dither / Threshold option, pick **Threshold**. On a Nelko PL70e-BT these are on the **Parameters** tab (density default 8 of 15, speed default 4).
 
+## License
+
+[MIT](LICENSE). Bundled pdf-lib is also MIT (`extension/lib/pdf-lib.LICENSE.md`).
+
 ## Tests
 
 ```bash
