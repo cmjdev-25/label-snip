@@ -2,5 +2,5 @@
 *.pdf
 !store/sample/sample-label.pdf
 
-# Built package
+# Build output
 dist/

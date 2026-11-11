@@ -37,7 +37,7 @@ If the site only shows the label when you're signed in, that works too: Label Sn
 - `background.js`: on icon click, opens `crop.html` with the clicked tab's address.
 - `crop.js`: asks for the site's OK if needed, downloads the PDF (with your login cookies), calls `labelcrop.js`, shows the result in Chrome's PDF viewer.
 - `labelcrop.js`: finds the largest image on each page (the label), shrinks the page boxes to it, turns it upright if it's sideways, and drops pages with no label. The label image isn't re-rendered, so barcodes stay sharp.
-- `lib/pdf-lib.js`: [pdf-lib](https://pdf-lib.js.org) 1.17.1 (MIT), the readable build.
+- `lib/pdf-lib.js`: [pdf-lib](https://pdf-lib.js.org) 1.17.1 (MIT), unminified so it's easy to read.
 
 Vinted's label host (`svc-shipping-labels.s3.eu-central-1.amazonaws.com`) is approved from install, so Vinted never shows the Allow step.
 
