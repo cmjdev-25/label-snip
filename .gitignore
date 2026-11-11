@@ -1,0 +1,6 @@
+# Real labels contain names and addresses. Never commit them.
+*.pdf
+!store/sample/sample-label.pdf
+
+# Built package
+dist/

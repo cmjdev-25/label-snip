@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Label Snip</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f5f5f4; --card: #fff; --text: #1c1917; --muted: #57534e; --border: #e7e5e4; --error: #b91c1c; --accent: #0f766e; --accent-text: #fff; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #1c1917; --card: #292524; --text: #f5f5f4; --muted: #a8a29e; --border: #44403c; --error: #f87171; --accent: #2dd4bf; --accent-text: #042f2e; }
+    }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, sans-serif; }
+    main { max-width: 440px; margin: 16px; padding: 28px 32px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; }
+    h1 { margin: 0 0 8px; font-size: 18px; }
+    h1.error { color: var(--error); }
+    p { margin: 0 0 8px; color: var(--muted); }
+    code { font-size: 13px; word-break: break-word; }
+    button { margin-top: 12px; padding: 8px 20px; font: inherit; font-weight: 600; color: var(--accent-text); background: var(--accent); border: 0; border-radius: 8px; cursor: pointer; }
+    button:focus-visible { outline: 3px solid var(--text); outline-offset: 2px; }
+    button:disabled { opacity: 0.6; cursor: default; }
+  </style>
+</head>
+<body>
+  <main id="status" aria-live="polite">
+    <h1>Snipping label…</h1>
+  </main>
+  <script src="lib/pdf-lib.js"></script>
+  <script src="labelcrop.js"></script>
+  <script src="crop.js"></script>
+</body>
+</html>
