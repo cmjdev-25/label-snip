@@ -2,6 +2,10 @@
 
 Chrome extension that trims a shipping label PDF (a 4×6 label on a letter or A4 page) down to a print-ready 4×6 PDF. Built for Vinted, works on any site whose label is a single picture on the page. Everything runs on your computer.
 
+## Install
+
+**[Get Label Snip on the Chrome Web Store](https://chromewebstore.google.com/detail/label-snip/ebaikfeopdklnkpagpomjnlmfjbaecan)**, then pin it: puzzle-piece icon in the toolbar → pin **Label Snip**.
+
 ## Install from source
 
 1. Download or clone this repo.
